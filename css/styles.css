@@ -1,11 +1,14 @@
 @import './wrapper.css';
 @import './nav.css';
+@import './button.css';
+@import './home.css';
 
 :root{
   --green: #1D957F;
   --purple: #4285F4;
   --black: #000000;
   --grey: #616161;
+  --white: #FCFDFE;
   --mainFont: 'Rubik', sans-serif;
 }
 
