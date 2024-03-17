@@ -8,6 +8,16 @@
   font-family: var(--mainFont);
   border-radius: 8px;
   border: none;
+  cursor: pointer;
+  transition: transform .2s ease-in-out;
+}
+
+.button:hover{
+  opacity: .85;
+}
+
+.button:active{
+  transform: scale(.9);
 }
 
 @media screen and (min-width: 1024px){
