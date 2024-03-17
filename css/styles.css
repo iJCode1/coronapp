@@ -1,0 +1,16 @@
+@import './wrapper.css';
+@import './nav.css';
+
+:root{
+  --green: #1D957F;
+  --purple: #4285F4;
+  --black: #000000;
+  --grey: #616161;
+  --mainFont: 'Rubik', sans-serif;
+}
+
+body{
+  font-family: var(--mainFont);
+  color: var(--grey);
+  margin: 0;
+}

@@ -1,0 +1,77 @@
+.nav{
+  display: flex;
+  justify-content: flex-end;
+  gap: 4rem;
+  align-items: center;
+  padding-inline-end: 1.5rem;
+  padding-block-start: 1.5rem;
+}
+
+.nav .nav-image{
+  inline-size: 8.5rem;
+  block-size: 2.75rem;
+  transition: transform .2s ease-in-out;
+}
+
+.nav-button{
+  inline-size: 1.5rem;
+  block-size: 1.5rem;
+  background: none;
+  background-image: url('../icons/icon-menu.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  cursor: pointer;
+  transition: transform .2s ease-in-out;
+}
+
+.nav-button:active{
+  transform: scale(.9);
+}
+
+.nav-list{
+  display: none;
+  list-style: none;
+  gap: 2rem;
+  margin: 0;
+}
+
+.nav-list .nav-link{
+  color: var(--black);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: transform .2s ease-in-out;
+  display: inline-block;
+}
+
+.nav-list .nav-link:hover{
+  text-decoration: underline;
+  color: var(--green);
+}
+
+.nav-list .nav-link:active,
+.nav-image:active{
+  transform: scale(.9);
+}
+
+@media screen and (min-width: 1024px){
+  .nav{
+    justify-content: flex-start;
+    padding: 0;
+    padding-block-start: 2rem;
+    padding-inline-start: 3.5rem;
+    gap: 11rem;
+  }
+  
+  .nav-hamburger{
+    display: none;
+  }
+
+  .nav-list{
+    display: flex;
+  }
+}
