@@ -3,6 +3,7 @@
 @import './button.css';
 @import './home.css';
 @import './characteristics.css';
+@import './support.css';
 
 :root{
   --green: #1D957F;
