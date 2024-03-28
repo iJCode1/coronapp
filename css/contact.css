@@ -1,0 +1,96 @@
+.contact{
+  padding-block-start: 4rem;
+  padding-inline: 1.5rem;
+  margin-block-end: 7.5rem;
+}
+
+.contact-header{
+  color: var(--black);
+  margin-block-end: 2rem;
+}
+
+.contact-title{
+  font-size: 2rem;
+  margin: 0;
+  margin-block-end: 1rem;
+}
+
+.contact-title .is-green{
+  color: var(--green);
+}
+
+.contact-paragraph{
+  font-size: .75rem;
+  margin: 0;
+}
+
+.contact-content{
+  padding-block-start: 4rem;
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact-card{
+  display: flex;
+  gap: 2.5rem;
+  flex-direction: column;
+  max-inline-size: 17rem;
+  box-shadow: 0 0 18px rgba(88, 126, 236, .18);
+  border-radius: .5rem;
+  padding-block: 2rem;
+  padding-inline: 1rem;
+  align-items: center;
+}
+
+.contact-info{
+  color: var(--black);
+  text-align: center;
+}
+
+.contact-info-title{
+  margin: 0;
+  font-size: 1rem;
+  margin-block-end: .5rem;
+}
+
+.contact-info-paragraph{
+  margin: 0;
+  color: var(--grey);
+  font-size: 0.75rem;
+}
+
+@media screen and (min-width: 1024px){
+  .contact{
+    padding-block-start: 2.5rem;
+    padding-inline: 3.5rem;
+    margin-block-end: 5rem;
+  }
+
+  .contact-header{
+    margin-block-end: 2.5rem;
+    max-inline-size: 30.5rem;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .contact-title{
+    font-size: 2.75rem;
+  }
+
+  .contact-title span{
+    display: block;
+  }
+
+  .contact-paragraph{
+    font-size: 1rem;
+  }
+
+  .contact-content{
+    padding-block-start: 4rem;
+    gap: 4.5rem;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+}

@@ -4,6 +4,7 @@
 @import './home.css';
 @import './characteristics.css';
 @import './support.css';
+@import './contact.css';
 
 :root{
   --green: #1D957F;
