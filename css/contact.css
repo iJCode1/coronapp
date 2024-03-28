@@ -42,6 +42,43 @@
   padding-block: 2rem;
   padding-inline: 1rem;
   align-items: center;
+  background-color: var(--white);
+}
+
+.contact-card:nth-child(1){
+  position: relative;
+}
+
+.contact-card:nth-child(1)::before{
+  content: '';
+  display: inline-block;
+  background-image: url('../icons/icon-rectangulo2.svg');
+  inline-size: 8rem;
+  aspect-ratio: 1/1;
+  background-position: center;
+  background-size: cover;
+  inset-inline-start: 10px;
+  inset-block-start: -70px;
+  position: absolute;
+  z-index: -1;
+}
+
+.contact-card:nth-child(3){
+  position: relative;
+}
+
+.contact-card:nth-child(3)::before{
+  content: '';
+  display: inline-block;
+  background-image: url('../icons/icon-rectangulo2.svg');
+  inline-size: 8rem;
+  aspect-ratio: 1/1;
+  background-position: center;
+  background-size: cover;
+  inset-inline-end: 10px;
+  inset-block-end: -60px;
+  position: absolute;
+  z-index: -1;
 }
 
 .contact-info{
@@ -92,5 +129,33 @@
     gap: 4.5rem;
     flex-wrap: nowrap;
     justify-content: space-between;
+  }
+
+  .contact-card:nth-child(1)::before{
+    inline-size: 4.375rem;
+    inset-block-end: -40px;
+    inset-block-start: initial;
+    inset-inline-start: -20px;
+  }
+
+  .contact-card:nth-child(1)::after{
+    content: '';
+    display: inline-block;
+    background-image: url('../icons/icon-rectangulo3.png');
+    inline-size: 6rem;
+    aspect-ratio: 1/1;
+    background-position: center;
+    background-size: cover;
+    inset-inline-end: -45px;
+    inset-block-start: 20px;
+    position: absolute;
+    z-index: -1;
+  }
+
+  .contact-card:nth-child(3)::before{
+    inline-size: 4.375rem;
+    inset-block-start: -40px;
+    inset-block-end: initial;
+    inset-inline-end: -20px;
   }
 }

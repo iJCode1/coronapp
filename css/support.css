@@ -25,7 +25,7 @@
 .support-card::before{
   content: '';
   display: inline-block;
-  background-image: url('../icons/icon-rectangulo2.png');
+  background-image: url('../icons/icon-rectangulo2.svg');
   inline-size: 4.375rem;
   aspect-ratio: 1/1;
   background-position: center;
