@@ -1,0 +1,27 @@
+.footer{
+  padding-block-start: 2.5rem;
+  margin-block-end: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.footer-icon{
+  display: block;
+  transition: transform .2s ease-in-out;
+}
+
+.footer-icon:active{
+  transform: scale(.9);
+}
+
+@media screen and (min-width: 1024px){
+  .footer{
+    padding: 0;
+    margin-block-end: 3.25rem;
+    gap: 3.5rem;
+    flex-direction: row;
+    justify-content: center;
+  }
+}

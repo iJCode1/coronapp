@@ -5,6 +5,7 @@
 @import './characteristics.css';
 @import './support.css';
 @import './contact.css';
+@import './footer.css';
 
 :root{
   --green: #1D957F;
