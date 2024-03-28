@@ -81,14 +81,16 @@
   .home::after{
     content: '';
     position: absolute;
-    inline-size: 18rem;
+    inline-size: 13.5rem;
     inset-inline-end: 0;
-    inset-block-start: 0;
+    inset-block-end: 0;
     block-size: 100%;
     background-color: var(--green);
     border-start-start-radius: 1.5rem;
     border-end-start-radius: 1.5rem;
     z-index: -1;
+    min-block-size: 33rem;
+    border-block-start: 30px;
   }
 
   .home-content{
@@ -118,5 +120,11 @@
 
   .home-button{
     margin-block-end: 5rem;
+  }
+}
+
+@media screen and (min-width: 1099px){
+  .home::after{
+    min-block-size: 29rem;
   }
 }
