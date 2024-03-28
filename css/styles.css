@@ -16,6 +16,10 @@
   --mainFont: 'Rubik', sans-serif;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body{
   font-family: var(--mainFont);
   color: var(--grey);
